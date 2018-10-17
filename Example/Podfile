@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HZPGDatePicker_Example' do
+  pod 'HZPGDatePicker', :path => '../'
+
+  target 'HZPGDatePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
