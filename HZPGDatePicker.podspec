@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HZPGDatePicker'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of HZPGDatePicker.'
+  s.version          = '0.0.1'
+  s.summary          = 'HZPGDatePicker is a custom version of PGDatePicker.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+HZPGDatePicker is a custom version of PGDatePicker, with auto select first row function and HZPGPickViewController.
                        DESC
 
   s.homepage         = 'https://github.com/gerrywg/HZPGDatePicker'
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HZPGDatePicker/Classes/**/*'
+  s.resource     = 'HZPGDatePicker/Classes/PGDatePicker.bundle'
   
   # s.resource_bundles = {
   #   'HZPGDatePicker' => ['HZPGDatePicker/Assets/*.png']
@@ -38,5 +39,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'HZPGPickerView'
 end

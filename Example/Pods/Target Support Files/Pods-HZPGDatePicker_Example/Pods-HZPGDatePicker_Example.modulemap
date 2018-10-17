@@ -1,0 +1,6 @@
+framework module Pods_HZPGDatePicker_Example {
+  umbrella header "Pods-HZPGDatePicker_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

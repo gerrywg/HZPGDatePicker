@@ -1,0 +1,6 @@
+framework module HZPGDatePicker {
+  umbrella header "HZPGDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

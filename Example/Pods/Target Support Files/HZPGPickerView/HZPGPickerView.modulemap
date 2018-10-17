@@ -1,0 +1,6 @@
+framework module HZPGPickerView {
+  umbrella header "HZPGPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

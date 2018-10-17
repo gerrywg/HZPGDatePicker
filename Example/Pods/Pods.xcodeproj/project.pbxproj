@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0865DE1A44EFB50F26A3FC436A2E2894 /* PGPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 473C8EAFE4D2D955649FD96AFA4C54F1 /* PGPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16190E6FCABE1BC7656BE22FF5056213 /* PGPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B08A4072E3A8F36F25E1DDBC44BAC68A /* PGPickerView.m */; };
+		20BC81735638D487AE942CD93B03EC23 /* PGPickerColumnView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D1FB43AD116442EFFBA5E39C6DE089 /* PGPickerColumnView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2203EF85765341E0314C54EC95EA1B76 /* PGPickerColumnCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B06052C22A1F22B144EC803B6562EC6 /* PGPickerColumnCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2931B8BB3E9616848B770978EEFD1597 /* HZPGDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B05B3198751E4C822A403614B47532 /* HZPGDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2994635D846461A413BCCA8B1153DDBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2ABEE2665F6AC158B24E4093017528F0 /* Pods-HZPGDatePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7950590C28EE8FA5B076F73C018A42E9 /* Pods-HZPGDatePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35BE09731779A2AB98FCD3CABC5CCFF3 /* Pods-HZPGDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E282D0E11035678E06C56C33C3E816CB /* Pods-HZPGDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45898F08A917713258379403BD379290 /* PGPickerColumnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF983253A9BED181369CF8C74B6699F7 /* PGPickerColumnCell.m */; };
+		4B206A1983AB6990F339B8F14A291FC4 /* Pods-HZPGDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 855A3940FD4120B817A0701916D543D5 /* Pods-HZPGDatePicker_Example-dummy.m */; };
+		4F2013C42D0B991066A6F9FBDCC3C9A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		4FFACF285D4E0D679FD29A0E820C0E5F /* PGPickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E086B1F7D1BC5FD26E06B08CBEB9A /* PGPickerTableView.m */; };
+		5A52DCBACB23E74705F5BDBA6EEBB214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7E1E4A956E4B1283A17A2B22CAD66E3A /* PGPickerColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A883944AB1350ED8DBE1F76D202F8E /* PGPickerColumnView.m */; };
+		957AA9C21E7CDF4CC0D20AA36F874DA4 /* Pods-HZPGDatePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC735AADA921E867FFADB6B97ACFCE /* Pods-HZPGDatePicker_Tests-dummy.m */; };
+		AB1F11595050E986B11A0264785E8D53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		B853FC71501A738D2B8BDB21CAC1661D /* HZPGPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE24FEA331AC0CC64F932A23B04E039 /* HZPGPickerView-dummy.m */; };
+		C935E70513A74B27C62D897A603F8BE4 /* PGPickerTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9DBCB6ABCF2A07E4D6EF20F839C8E2 /* PGPickerTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D423EE2DFA2163E3E1D740B579D21669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FBF9F2EAF75C9D8CC475C53F4CEEA4A9 /* HZPGDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74603ED29FB9F56CEA7675A01AA047D4 /* HZPGDatePicker-dummy.m */; };
+		FE124CDD1B936580FFBBD9FB7D5B5E6A /* HZPGPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5CFF536BA1FFF37609551B236A27F64 /* HZPGPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54F398CFDEF4A15D571687EC9B055CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641DE4578FEECB8AD89B1AEEA50EE7B7;
+			remoteInfo = HZPGPickerView;
+		};
+		908EA73E40F8F8CB8ECA14F82EEA2F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 099A2AD954A2770B6579741E214BE9DC;
+			remoteInfo = HZPGDatePicker;
+		};
+		D8304844AC8142F933D32213F178EA71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7488A0DD5FE850592593B24A809399;
+			remoteInfo = "Pods-HZPGDatePicker_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006A86F4C1003A11B77BCBB30765830F /* Pods-HZPGDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZPGDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		00B05B3198751E4C822A403614B47532 /* HZPGDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZPGDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		08A2179E036AE765695A03191061096F /* Pods-HZPGDatePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZPGDatePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		17D5420C8CBE4E64EE52488C23DF4DAA /* Pods-HZPGDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZPGDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		20A6867A67A6FEF494405822EB336901 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA99E75EED0E3D9B030654D437CFEF5 /* Pods-HZPGDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZPGDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		37E2B9CD10B23178FE5E6EA373CF1829 /* Pods-HZPGDatePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZPGDatePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		473C8EAFE4D2D955649FD96AFA4C54F1 /* PGPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGPickerView.h; path = PGPickerView/PGPickerView.h; sourceTree = "<group>"; };
+		4AE6E305CAEB871344367D65DADDAADF /* Pods-HZPGDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZPGDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4B01A564FED1201A32F15BFFAF265D49 /* Pods-HZPGDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZPGDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		516EEB0AABD4C9A5ED7F787D11896354 /* HZPGPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZPGPickerView-prefix.pch"; sourceTree = "<group>"; };
+		52592986D14AA2B1E9172B2C6CD0D6E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59D1FB43AD116442EFFBA5E39C6DE089 /* PGPickerColumnView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGPickerColumnView.h; path = PGPickerView/PGPickerColumnView.h; sourceTree = "<group>"; };
+		5B7AC32CB9CEF8013EC7A7D067F3644B /* HZPGPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HZPGPickerView.xcconfig; sourceTree = "<group>"; };
+		5E9DBCB6ABCF2A07E4D6EF20F839C8E2 /* PGPickerTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGPickerTableView.h; path = PGPickerView/PGPickerTableView.h; sourceTree = "<group>"; };
+		60829028C5713EE57A0D0F3B9D5FD2A8 /* Pods_HZPGDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZPGDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C291BE8698B038BE3F488435020A41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		64C62BDCF86E6754B5CA08A1BE5AB0D9 /* HZPGPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HZPGPickerView.modulemap; sourceTree = "<group>"; };
+		65A883944AB1350ED8DBE1F76D202F8E /* PGPickerColumnView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGPickerColumnView.m; path = PGPickerView/PGPickerColumnView.m; sourceTree = "<group>"; };
+		684FF68998F5A284B2C38A99FE27D65E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6BFDA2C8E6C3DEE0E8F4413C70111C8E /* Pods-HZPGDatePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZPGDatePicker_Example-resources.sh"; sourceTree = "<group>"; };
+		74603ED29FB9F56CEA7675A01AA047D4 /* HZPGDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HZPGDatePicker-dummy.m"; sourceTree = "<group>"; };
+		760360DE32CFE5959111510087E68A88 /* HZPGDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HZPGDatePicker.xcconfig; sourceTree = "<group>"; };
+		777D9969EB1DD2A74061FEF31F751099 /* Pods-HZPGDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HZPGDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		7950590C28EE8FA5B076F73C018A42E9 /* Pods-HZPGDatePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HZPGDatePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		7B06052C22A1F22B144EC803B6562EC6 /* PGPickerColumnCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGPickerColumnCell.h; path = PGPickerView/PGPickerColumnCell.h; sourceTree = "<group>"; };
+		814ACAB0E8C3C375B43062CD5C3A6EF6 /* Pods-HZPGDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZPGDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		855A3940FD4120B817A0701916D543D5 /* Pods-HZPGDatePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZPGDatePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		957E086B1F7D1BC5FD26E06B08CBEB9A /* PGPickerTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGPickerTableView.m; path = PGPickerView/PGPickerTableView.m; sourceTree = "<group>"; };
+		96AC735AADA921E867FFADB6B97ACFCE /* Pods-HZPGDatePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZPGDatePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		9B4ECE430202A4A66A7592857DF295CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6F72B41EE0CF4A2162B2AB5B9E9694 /* Pods_HZPGDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZPGDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CFF536BA1FFF37609551B236A27F64 /* HZPGPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZPGPickerView-umbrella.h"; sourceTree = "<group>"; };
+		A8420144B3149DB454463896C26E355D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD84DD904F54F1C3DE4DB6B41BEA225F /* HZPGPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HZPGPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE767CD262DB443B023022B668615ED5 /* HZPGDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZPGDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		AF983253A9BED181369CF8C74B6699F7 /* PGPickerColumnCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGPickerColumnCell.m; path = PGPickerView/PGPickerColumnCell.m; sourceTree = "<group>"; };
+		B08A4072E3A8F36F25E1DDBC44BAC68A /* PGPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGPickerView.m; path = PGPickerView/PGPickerView.m; sourceTree = "<group>"; };
+		B426AA641BACB331321A4EFA146EC52D /* Pods-HZPGDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZPGDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C6EF3984B092ED13262041B7669A430F /* HZPGDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HZPGDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D891C04FBF6703C2B7F125C58AA41813 /* HZPGDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HZPGDatePicker.modulemap; sourceTree = "<group>"; };
+		E0013482CADCD6E175A73007F2F6B1CC /* HZPGDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HZPGDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E282D0E11035678E06C56C33C3E816CB /* Pods-HZPGDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HZPGDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E6363C8FA0526BE5BAEB78EF1DFBBE47 /* Pods-HZPGDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZPGDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E76DB3C839D77E86A65057CDE4169306 /* Pods-HZPGDatePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZPGDatePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8293122440AE81AC809F03CD50E8563 /* Pods-HZPGDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HZPGDatePicker_Example.modulemap"; sourceTree = "<group>"; };
+		EBE24FEA331AC0CC64F932A23B04E039 /* HZPGPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HZPGPickerView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8196E3F29AD83CA317B3B57D1790E4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2994635D846461A413BCCA8B1153DDBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C99B0226E014AAC32C64B24A42A6499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A52DCBACB23E74705F5BDBA6EEBB214 /* Foundation.framework in Frameworks */,
+				4F2013C42D0B991066A6F9FBDCC3C9A6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFC24FDBC2835F996249CA3841AB0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1F11595050E986B11A0264785E8D53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DD8032A631992E37F9E3B956F9B883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D423EE2DFA2163E3E1D740B579D21669 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		124C6823F530334EB0D70D8870B9CBC5 /* Pods-HZPGDatePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				20A6867A67A6FEF494405822EB336901 /* Info.plist */,
+				777D9969EB1DD2A74061FEF31F751099 /* Pods-HZPGDatePicker_Tests.modulemap */,
+				E6363C8FA0526BE5BAEB78EF1DFBBE47 /* Pods-HZPGDatePicker_Tests-acknowledgements.markdown */,
+				006A86F4C1003A11B77BCBB30765830F /* Pods-HZPGDatePicker_Tests-acknowledgements.plist */,
+				96AC735AADA921E867FFADB6B97ACFCE /* Pods-HZPGDatePicker_Tests-dummy.m */,
+				37E2B9CD10B23178FE5E6EA373CF1829 /* Pods-HZPGDatePicker_Tests-frameworks.sh */,
+				08A2179E036AE765695A03191061096F /* Pods-HZPGDatePicker_Tests-resources.sh */,
+				E282D0E11035678E06C56C33C3E816CB /* Pods-HZPGDatePicker_Tests-umbrella.h */,
+				2BA99E75EED0E3D9B030654D437CFEF5 /* Pods-HZPGDatePicker_Tests.debug.xcconfig */,
+				17D5420C8CBE4E64EE52488C23DF4DAA /* Pods-HZPGDatePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-HZPGDatePicker_Tests";
+			path = "Target Support Files/Pods-HZPGDatePicker_Tests";
+			sourceTree = "<group>";
+		};
+		3495175DF55ED7C54F82AC804CE03FE4 /* HZPGPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				7B06052C22A1F22B144EC803B6562EC6 /* PGPickerColumnCell.h */,
+				AF983253A9BED181369CF8C74B6699F7 /* PGPickerColumnCell.m */,
+				59D1FB43AD116442EFFBA5E39C6DE089 /* PGPickerColumnView.h */,
+				65A883944AB1350ED8DBE1F76D202F8E /* PGPickerColumnView.m */,
+				5E9DBCB6ABCF2A07E4D6EF20F839C8E2 /* PGPickerTableView.h */,
+				957E086B1F7D1BC5FD26E06B08CBEB9A /* PGPickerTableView.m */,
+				473C8EAFE4D2D955649FD96AFA4C54F1 /* PGPickerView.h */,
+				B08A4072E3A8F36F25E1DDBC44BAC68A /* PGPickerView.m */,
+				78AB87EB0752A22035ACDE48F8A47726 /* Support Files */,
+			);
+			path = HZPGPickerView;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		485986335405A5483D9B8098DCE6F4F0 /* HZPGDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5C21C70F702F5CBDA73E1333D73F74DF /* Pod */,
+				C1D813F134497C75830E069810290FA4 /* Support Files */,
+			);
+			name = HZPGDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5C21C70F702F5CBDA73E1333D73F74DF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E0013482CADCD6E175A73007F2F6B1CC /* HZPGDatePicker.podspec */,
+				61C291BE8698B038BE3F488435020A41 /* LICENSE */,
+				684FF68998F5A284B2C38A99FE27D65E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		687CB8D4C37AF33415365B7DC6FA0986 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8315CE93E3A5A7CD41DF2EBB6DEE4403 /* Pods-HZPGDatePicker_Example */,
+				124C6823F530334EB0D70D8870B9CBC5 /* Pods-HZPGDatePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78AB87EB0752A22035ACDE48F8A47726 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C62BDCF86E6754B5CA08A1BE5AB0D9 /* HZPGPickerView.modulemap */,
+				5B7AC32CB9CEF8013EC7A7D067F3644B /* HZPGPickerView.xcconfig */,
+				EBE24FEA331AC0CC64F932A23B04E039 /* HZPGPickerView-dummy.m */,
+				516EEB0AABD4C9A5ED7F787D11896354 /* HZPGPickerView-prefix.pch */,
+				A5CFF536BA1FFF37609551B236A27F64 /* HZPGPickerView-umbrella.h */,
+				9B4ECE430202A4A66A7592857DF295CF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HZPGPickerView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				985D619E16EFC4EF63DA2F0F54CAF4CB /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9E22CC5530F0313C26ADCAEA9F64357B /* Pods */,
+				FEDAD67AAA39396B9CF04E8306D0074F /* Products */,
+				687CB8D4C37AF33415365B7DC6FA0986 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8315CE93E3A5A7CD41DF2EBB6DEE4403 /* Pods-HZPGDatePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				52592986D14AA2B1E9172B2C6CD0D6E6 /* Info.plist */,
+				E8293122440AE81AC809F03CD50E8563 /* Pods-HZPGDatePicker_Example.modulemap */,
+				4B01A564FED1201A32F15BFFAF265D49 /* Pods-HZPGDatePicker_Example-acknowledgements.markdown */,
+				E76DB3C839D77E86A65057CDE4169306 /* Pods-HZPGDatePicker_Example-acknowledgements.plist */,
+				855A3940FD4120B817A0701916D543D5 /* Pods-HZPGDatePicker_Example-dummy.m */,
+				4AE6E305CAEB871344367D65DADDAADF /* Pods-HZPGDatePicker_Example-frameworks.sh */,
+				6BFDA2C8E6C3DEE0E8F4413C70111C8E /* Pods-HZPGDatePicker_Example-resources.sh */,
+				7950590C28EE8FA5B076F73C018A42E9 /* Pods-HZPGDatePicker_Example-umbrella.h */,
+				B426AA641BACB331321A4EFA146EC52D /* Pods-HZPGDatePicker_Example.debug.xcconfig */,
+				814ACAB0E8C3C375B43062CD5C3A6EF6 /* Pods-HZPGDatePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-HZPGDatePicker_Example";
+			path = "Target Support Files/Pods-HZPGDatePicker_Example";
+			sourceTree = "<group>";
+		};
+		985D619E16EFC4EF63DA2F0F54CAF4CB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				485986335405A5483D9B8098DCE6F4F0 /* HZPGDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9E22CC5530F0313C26ADCAEA9F64357B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3495175DF55ED7C54F82AC804CE03FE4 /* HZPGPickerView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1D813F134497C75830E069810290FA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D891C04FBF6703C2B7F125C58AA41813 /* HZPGDatePicker.modulemap */,
+				760360DE32CFE5959111510087E68A88 /* HZPGDatePicker.xcconfig */,
+				74603ED29FB9F56CEA7675A01AA047D4 /* HZPGDatePicker-dummy.m */,
+				AE767CD262DB443B023022B668615ED5 /* HZPGDatePicker-prefix.pch */,
+				00B05B3198751E4C822A403614B47532 /* HZPGDatePicker-umbrella.h */,
+				A8420144B3149DB454463896C26E355D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HZPGDatePicker";
+			sourceTree = "<group>";
+		};
+		FEDAD67AAA39396B9CF04E8306D0074F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6EF3984B092ED13262041B7669A430F /* HZPGDatePicker.framework */,
+				AD84DD904F54F1C3DE4DB6B41BEA225F /* HZPGPickerView.framework */,
+				9B6F72B41EE0CF4A2162B2AB5B9E9694 /* Pods_HZPGDatePicker_Example.framework */,
+				60829028C5713EE57A0D0F3B9D5FD2A8 /* Pods_HZPGDatePicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29F5837EE8BDF9AC6042443D9B3F38DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ABEE2665F6AC158B24E4093017528F0 /* Pods-HZPGDatePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691B04F4FCDD229E59C3D0F3552DF65D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE124CDD1B936580FFBBD9FB7D5B5E6A /* HZPGPickerView-umbrella.h in Headers */,
+				2203EF85765341E0314C54EC95EA1B76 /* PGPickerColumnCell.h in Headers */,
+				20BC81735638D487AE942CD93B03EC23 /* PGPickerColumnView.h in Headers */,
+				C935E70513A74B27C62D897A603F8BE4 /* PGPickerTableView.h in Headers */,
+				0865DE1A44EFB50F26A3FC436A2E2894 /* PGPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B425FEB64CA7F691A96DD65C9D35C427 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BE09731779A2AB98FCD3CABC5CCFF3 /* Pods-HZPGDatePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2DCD69D277DD586BAE5D3971C3E13C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2931B8BB3E9616848B770978EEFD1597 /* HZPGDatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		099A2AD954A2770B6579741E214BE9DC /* HZPGDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF819863D3F3C1FCF7BB317BA17281D /* Build configuration list for PBXNativeTarget "HZPGDatePicker" */;
+			buildPhases = (
+				22C61F668602D5D53AED55D0EB090417 /* Sources */,
+				F9DD8032A631992E37F9E3B956F9B883 /* Frameworks */,
+				E2DCD69D277DD586BAE5D3971C3E13C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZPGDatePicker;
+			productName = HZPGDatePicker;
+			productReference = C6EF3984B092ED13262041B7669A430F /* HZPGDatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F7488A0DD5FE850592593B24A809399 /* Pods-HZPGDatePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C93F13B1B8E3C2D6BE42FCE7EDFC6B /* Build configuration list for PBXNativeTarget "Pods-HZPGDatePicker_Example" */;
+			buildPhases = (
+				264A398C7295378805A092B0A7808D5E /* Sources */,
+				8196E3F29AD83CA317B3B57D1790E4EF /* Frameworks */,
+				29F5837EE8BDF9AC6042443D9B3F38DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF4F9D824DAFD9D05ECA64C7C25481C /* PBXTargetDependency */,
+				4EB2E5028D0F7DD26C44012DE0CEE10B /* PBXTargetDependency */,
+			);
+			name = "Pods-HZPGDatePicker_Example";
+			productName = "Pods-HZPGDatePicker_Example";
+			productReference = 9B6F72B41EE0CF4A2162B2AB5B9E9694 /* Pods_HZPGDatePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		641DE4578FEECB8AD89B1AEEA50EE7B7 /* HZPGPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706E890493C9FB6F9E6C3C5DD8FD6B81 /* Build configuration list for PBXNativeTarget "HZPGPickerView" */;
+			buildPhases = (
+				E47C99790AF697005946243788F641C4 /* Sources */,
+				8C99B0226E014AAC32C64B24A42A6499 /* Frameworks */,
+				691B04F4FCDD229E59C3D0F3552DF65D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZPGPickerView;
+			productName = HZPGPickerView;
+			productReference = AD84DD904F54F1C3DE4DB6B41BEA225F /* HZPGPickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E21059EC53A4C98AE5F36D9582E0B4E7 /* Pods-HZPGDatePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C24875F1AE0CFF819B511E8E65F694 /* Build configuration list for PBXNativeTarget "Pods-HZPGDatePicker_Tests" */;
+			buildPhases = (
+				CEC7C4AE8E0E2C6AAC8940F9935FE26F /* Sources */,
+				AFFC24FDBC2835F996249CA3841AB0A4 /* Frameworks */,
+				B425FEB64CA7F691A96DD65C9D35C427 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC879DD03796283A575284243CEE5733 /* PBXTargetDependency */,
+			);
+			name = "Pods-HZPGDatePicker_Tests";
+			productName = "Pods-HZPGDatePicker_Tests";
+			productReference = 60829028C5713EE57A0D0F3B9D5FD2A8 /* Pods_HZPGDatePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FEDAD67AAA39396B9CF04E8306D0074F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				099A2AD954A2770B6579741E214BE9DC /* HZPGDatePicker */,
+				641DE4578FEECB8AD89B1AEEA50EE7B7 /* HZPGPickerView */,
+				2F7488A0DD5FE850592593B24A809399 /* Pods-HZPGDatePicker_Example */,
+				E21059EC53A4C98AE5F36D9582E0B4E7 /* Pods-HZPGDatePicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C61F668602D5D53AED55D0EB090417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF9F2EAF75C9D8CC475C53F4CEEA4A9 /* HZPGDatePicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264A398C7295378805A092B0A7808D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B206A1983AB6990F339B8F14A291FC4 /* Pods-HZPGDatePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC7C4AE8E0E2C6AAC8940F9935FE26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957AA9C21E7CDF4CC0D20AA36F874DA4 /* Pods-HZPGDatePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47C99790AF697005946243788F641C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B853FC71501A738D2B8BDB21CAC1661D /* HZPGPickerView-dummy.m in Sources */,
+				45898F08A917713258379403BD379290 /* PGPickerColumnCell.m in Sources */,
+				7E1E4A956E4B1283A17A2B22CAD66E3A /* PGPickerColumnView.m in Sources */,
+				4FFACF285D4E0D679FD29A0E820C0E5F /* PGPickerTableView.m in Sources */,
+				16190E6FCABE1BC7656BE22FF5056213 /* PGPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EB2E5028D0F7DD26C44012DE0CEE10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HZPGPickerView;
+			target = 641DE4578FEECB8AD89B1AEEA50EE7B7 /* HZPGPickerView */;
+			targetProxy = 54F398CFDEF4A15D571687EC9B055CDF /* PBXContainerItemProxy */;
+		};
+		DAF4F9D824DAFD9D05ECA64C7C25481C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HZPGDatePicker;
+			target = 099A2AD954A2770B6579741E214BE9DC /* HZPGDatePicker */;
+			targetProxy = 908EA73E40F8F8CB8ECA14F82EEA2F30 /* PBXContainerItemProxy */;
+		};
+		DC879DD03796283A575284243CEE5733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HZPGDatePicker_Example";
+			target = 2F7488A0DD5FE850592593B24A809399 /* Pods-HZPGDatePicker_Example */;
+			targetProxy = D8304844AC8142F933D32213F178EA71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15F070C5E4E8CD52B60359EC8290757A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760360DE32CFE5959111510087E68A88 /* HZPGDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HZPGDatePicker/HZPGDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HZPGDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HZPGDatePicker/HZPGDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = HZPGDatePicker;
+				PRODUCT_NAME = HZPGDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		274319ABA3856A5C5235AD4AE80B949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA99E75EED0E3D9B030654D437CFEF5 /* Pods-HZPGDatePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HZPGDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HZPGDatePicker_Tests/Pods-HZPGDatePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BE8E0A6519CF637F2052FE0C50D5BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7AC32CB9CEF8013EC7A7D067F3644B /* HZPGPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HZPGPickerView/HZPGPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HZPGPickerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HZPGPickerView/HZPGPickerView.modulemap";
+				PRODUCT_MODULE_NAME = HZPGPickerView;
+				PRODUCT_NAME = HZPGPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44333A5F8BE263BA345AEFF7FB02B81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760360DE32CFE5959111510087E68A88 /* HZPGDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HZPGDatePicker/HZPGDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HZPGDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HZPGDatePicker/HZPGDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = HZPGDatePicker;
+				PRODUCT_NAME = HZPGDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		876F776A137E85E67570BD3B712C8BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7AC32CB9CEF8013EC7A7D067F3644B /* HZPGPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HZPGPickerView/HZPGPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HZPGPickerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HZPGPickerView/HZPGPickerView.modulemap";
+				PRODUCT_MODULE_NAME = HZPGPickerView;
+				PRODUCT_NAME = HZPGPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		96FCC509DAC27E5C675AA2FBD276A1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D5420C8CBE4E64EE52488C23DF4DAA /* Pods-HZPGDatePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HZPGDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HZPGDatePicker_Tests/Pods-HZPGDatePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E84EB1D02009A9CFE7144AEBE8C51FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B426AA641BACB331321A4EFA146EC52D /* Pods-HZPGDatePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HZPGDatePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HZPGDatePicker_Example/Pods-HZPGDatePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EEDD67D1F62A6FFE20A35E42BD2D518F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814ACAB0E8C3C375B43062CD5C3A6EF6 /* Pods-HZPGDatePicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HZPGDatePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HZPGDatePicker_Example/Pods-HZPGDatePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF819863D3F3C1FCF7BB317BA17281D /* Build configuration list for PBXNativeTarget "HZPGDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F070C5E4E8CD52B60359EC8290757A /* Debug */,
+				44333A5F8BE263BA345AEFF7FB02B81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C24875F1AE0CFF819B511E8E65F694 /* Build configuration list for PBXNativeTarget "Pods-HZPGDatePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274319ABA3856A5C5235AD4AE80B949D /* Debug */,
+				96FCC509DAC27E5C675AA2FBD276A1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C93F13B1B8E3C2D6BE42FCE7EDFC6B /* Build configuration list for PBXNativeTarget "Pods-HZPGDatePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84EB1D02009A9CFE7144AEBE8C51FC5 /* Debug */,
+				EEDD67D1F62A6FFE20A35E42BD2D518F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706E890493C9FB6F9E6C3C5DD8FD6B81 /* Build configuration list for PBXNativeTarget "HZPGPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE8E0A6519CF637F2052FE0C50D5BF3 /* Debug */,
+				876F776A137E85E67570BD3B712C8BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
