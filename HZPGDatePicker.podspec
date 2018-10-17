@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HZPGDatePicker'
-  s.version          = '0.0.1'
+  s.version          = '2.5.7'
   s.summary          = 'HZPGDatePicker is a custom version of PGDatePicker.'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,5 @@ HZPGDatePicker is a custom version of PGDatePicker, with auto select first row f
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'HZPGPickerView'
+  s.dependency 'HZPGPickerView', '>=1.3.5'
 end
